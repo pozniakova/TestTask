@@ -1,0 +1,17 @@
+*** Settings ***
+Resource  libs.txt
+Resource  pages/all_pages.txt
+Resource  keywords/all_keywords.txt
+
+
+*** Variables ***
+${URL}  https://atomcream.com/
+${BROWSER}  ff
+
+${RESOLUTION_WIDTH}  1366
+${RESOLUTION_HIGHT}  768
+
+*** Keywords ***
+
+Take Screenshot
+  Capture Page Screenshot  ${TEST NAME}.png

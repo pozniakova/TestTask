@@ -1,0 +1,12 @@
+*** Settings ***
+
+Resource  ../libs.txt
+
+*** Variables ***
+
+${promo__holder}  xpath=//div[@class='promo__holder']
+
+*** Keywords ***
+
+Verify Landing Page Loaded
+  Page Should Contain Element  ${promo__holder}

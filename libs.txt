@@ -1,0 +1,4 @@
+*** Setting ***
+Library  Selenium2Library  10  10  Take Screenshot
+
+

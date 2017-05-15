@@ -1,0 +1,14 @@
+*** Settings ***
+
+Documentation  This file represents high-level keywords for UI tests
+
+Resource  ../libs.txt
+Resource  ../config.txt
+
+*** Keywords ***
+
+Open AtomCream site
+  [Arguments]  ${url}  ${browser}  
+  Open browser  ${url}  ${browser}
+  Set Window Size  ${RESOLUTION_WIDTH}  ${RESOLUTION_HIGHT}
+  Set Selenium Speed  .2

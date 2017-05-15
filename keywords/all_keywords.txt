@@ -1,0 +1,5 @@
+*** Settings ***
+
+Documentation  This file represents all high level keywords files.
+
+Resource  ui_keywords.txt

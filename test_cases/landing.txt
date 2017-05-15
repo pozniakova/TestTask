@@ -1,0 +1,13 @@
+*** Settings ***
+
+Resource  ../libs.txt
+Resource  ../config.txt
+
+
+Test Setup  Open AtomCream site  ${URL}  ${BROWSER}
+Test Teardown  Close Browser
+
+*** Test Cases ***
+
+Open Landing Page
+  Verify Landing Page Loaded
