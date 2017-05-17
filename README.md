@@ -15,7 +15,10 @@ $ pip install python==2.7.
 ## install all from requirements.txt, use command
 ```
 $ pip install -r requirements.txt
+```
 
+## 
+```
 docker pull selenium/standalone-chrome-debug
 ```
 
